@@ -3,7 +3,7 @@ from pydantic import BaseModel
 
 
 class Item(BaseModel):
-    text:str = None
+    text:str = "None"
     is_done :bool = False
 
 app = FastAPI()
